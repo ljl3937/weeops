@@ -1,0 +1,5 @@
+langchain>=0.1.0
+paramiko>=3.4.0
+python-dotenv>=1.0.0
+zhipuai>=2.0.1
+langchain-zhipuai>=0.0.5 
