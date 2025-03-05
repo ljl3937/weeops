@@ -2,3 +2,4 @@ __pycache__
 metagpt/
 logs/
 metagpt_docs
+.ossutilconfig

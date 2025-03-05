@@ -1,5 +1,5 @@
-from ActionNode import ActionNode
-from SSHAction import SSHExecute
+from actions.SSHAction import SSHExecute
+from actions.ActionNode import ActionNode
 import asyncio
 
 # 创建一个异步SSH命令执行函数

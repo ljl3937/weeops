@@ -1,8 +1,8 @@
 # behavior_tree_demo.py
 # 使用ActionNode构建简单的行为树示例
 
-from ActionNode import ActionNode
-from SSHAction import SSHExecute
+from actions.ActionNode import ActionNode
+from actions.SSHAction import SSHExecute
 import asyncio
 
 # 创建一个异步SSH命令执行函数
