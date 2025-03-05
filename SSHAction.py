@@ -23,7 +23,9 @@ class SSHExecute(Action):
             username=username,  # 新增用户名配置
             # 注意：这里需要添加认证方式（密码/密钥）
             # password='your_password',  # 不推荐明文密码
-            client_keys=['/home/jialin/.ssh/id_ed25519']  # 推荐使用密钥认证
+            # client_keys=['/home/jialin/.ssh/id_ed25519']  # 推荐使用密钥认证
+            client_keys=['/Users/lijialin/.ssh/id_rsa']  # 推荐使用密钥认证
+
         ) as conn:
             return await conn.run(command)
 
